@@ -1,0 +1,47 @@
+:root{
+  --primary:#FE6D3F;
+  --secondary:#999B9B;
+  --dark:#000000;
+  --light:#ffffff;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  
+}
+.btn,button{
+ border: none;
+ outline: none;
+ background-color: var(--primary);
+ color: var(--light);
+ padding: 1rem 2rem;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+.round-btn{
+  border-radius: 30px;
+}
+.light-btn{
+  background-color: var(--light);
+  border:  2px solid var(--secondary);
+  color: var(--secondary);
+}
+

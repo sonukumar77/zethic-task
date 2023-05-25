@@ -1,0 +1,40 @@
+.collection-section > p {
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+.collection-container {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 0.5rem; */
+  flex-wrap: wrap;
+}
+
+.collection-container .card {
+  width: 20rem;
+  height: 25rem;
+  /* border: 2px solid red; */
+}
+.collection-container .card:nth-child(1) > h1 {
+  font-size: 2rem;
+  color: var(--primary);
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+.collection-container .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.collection-container .card p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+.collection-divider {
+  border-left: 2px solid var(--dark);
+  height: 7rem;
+}
+
+/* End Collections section */
